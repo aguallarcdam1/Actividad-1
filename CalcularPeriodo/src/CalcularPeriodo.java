@@ -11,6 +11,10 @@ public class CalcularPeriodo {
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
 		
+		LocalDate fecha2 = LocalDate.of(1345, Month.MAY, 24);
+		
+		calcularPeriodo("El cumplea�os de Don Juan Tenorio", fecha2);
+		
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
