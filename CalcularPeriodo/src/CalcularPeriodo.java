@@ -15,6 +15,8 @@ public class CalcularPeriodo {
 		
 		calcularPeriodo("El cumpleaños de Don Juan Tenorio", fecha2);
 		
+		calcularPeriodo("Perri el ornitorrino holandés", LocalDate.of(2004, 2, 10));
+		
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
